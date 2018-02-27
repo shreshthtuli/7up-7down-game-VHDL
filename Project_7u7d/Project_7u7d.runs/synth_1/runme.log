@@ -1,0 +1,668 @@
+
+*** Running vivado
+    with args -log Project_7u7d.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Project_7u7d.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Project_7u7d.tcl -notrace
+Command: synth_design -top Project_7u7d -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11552 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 361.285 ; gain = 81.461
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Project_7u7d' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1537]
+INFO: [Synth 8-638] synthesizing module 'lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1103]
+INFO: [Synth 8-3491] module 'Mux_MUSER_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:892' bound to instance 'XLXI_3' of component 'Mux_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1155]
+INFO: [Synth 8-638] synthesizing module 'Mux_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:916]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_1' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:961]
+INFO: [Synth 8-638] synthesizing module 'AND2' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (1#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_2' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:966]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_3' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:971]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_4' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:976]
+INFO: [Synth 8-3491] module 'OR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941' bound to instance 'XLXI_5' of component 'OR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:981]
+INFO: [Synth 8-638] synthesizing module 'OR4' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (2#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_6' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:988]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_7' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:993]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_8' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:998]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_9' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1003]
+INFO: [Synth 8-3491] module 'OR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941' bound to instance 'XLXI_10' of component 'OR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1008]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_11' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1015]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_12' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1020]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_13' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1025]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_14' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1030]
+INFO: [Synth 8-3491] module 'OR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941' bound to instance 'XLXI_15' of component 'OR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1035]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_16' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1042]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_17' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1047]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_18' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1052]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_19' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1057]
+INFO: [Synth 8-3491] module 'OR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25941' bound to instance 'XLXI_20' of component 'OR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1062]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_61' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1069]
+INFO: [Synth 8-638] synthesizing module 'INV' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579]
+INFO: [Synth 8-256] done synthesizing module 'INV' (3#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_63' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1073]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_64' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1077]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_65' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1081]
+INFO: [Synth 8-256] done synthesizing module 'Mux_MUSER_lab4_seven_segment_display' (4#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:916]
+INFO: [Synth 8-3491] module 'Binary_to_Seven_MUSER_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:539' bound to instance 'XLXI_4' of component 'Binary_to_Seven_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1178]
+INFO: [Synth 8-638] synthesizing module 'Binary_to_Seven_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:553]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_1' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:633]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_2' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:638]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_4' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:643]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_5' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:648]
+INFO: [Synth 8-638] synthesizing module 'AND3' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (5#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_6' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:654]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_19' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:660]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_21' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:664]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_22' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:668]
+INFO: [Synth 8-3491] module 'INV' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17579' bound to instance 'XLXI_23' of component 'INV' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:672]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_38' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:676]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_39' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:681]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_40' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:686]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_41' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:692]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_43' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:698]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_44' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:703]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_45' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:708]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_46' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:713]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_47' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:718]
+INFO: [Synth 8-3491] module 'NOR5' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188' bound to instance 'XLXI_48' of component 'NOR5' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:723]
+INFO: [Synth 8-638] synthesizing module 'NOR5' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188]
+INFO: [Synth 8-256] done synthesizing module 'NOR5' (6#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_51' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:731]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_52' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:737]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_53' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:743]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_54' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:749]
+INFO: [Synth 8-3491] module 'NOR5' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188' bound to instance 'XLXI_56' of component 'NOR5' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:755]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_63' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:763]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_64' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:768]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_65' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:773]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_67' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:778]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_70' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:784]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_71' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:789]
+INFO: [Synth 8-3491] module 'NOR5' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188' bound to instance 'XLXI_74' of component 'NOR5' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:794]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_75' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:802]
+INFO: [Synth 8-3491] module 'NOR5' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188' bound to instance 'XLXI_89' of component 'NOR5' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:808]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_90' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:816]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_92' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:821]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_93' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:826]
+INFO: [Synth 8-3491] module 'NOR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22123' bound to instance 'XLXI_95' of component 'NOR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:831]
+INFO: [Synth 8-638] synthesizing module 'NOR4' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22123]
+INFO: [Synth 8-256] done synthesizing module 'NOR4' (7#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22123]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_96' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:838]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_97' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:843]
+INFO: [Synth 8-3491] module 'NOR5' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22188' bound to instance 'XLXI_98' of component 'NOR5' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:849]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_99' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:857]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_100' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:863]
+INFO: [Synth 8-3491] module 'NOR4' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22123' bound to instance 'XLXI_101' of component 'NOR4' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:869]
+INFO: [Synth 8-3491] module 'AND3' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:60' bound to instance 'XLXI_103' of component 'AND3' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:876]
+INFO: [Synth 8-256] done synthesizing module 'Binary_to_Seven_MUSER_lab4_seven_segment_display' (8#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:553]
+INFO: [Synth 8-3491] module 'Clocking_MUSER_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:158' bound to instance 'XLXI_10' of component 'Clocking_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1191]
+INFO: [Synth 8-638] synthesizing module 'Clocking_MUSER_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:164]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_13' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:299]
+INFO: [Synth 8-638] synthesizing module 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:40]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FTC_HXILINX_lab4_seven_segment_display' (9#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:40]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_33' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:305]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_44' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:310]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_45' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:316]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_46' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:321]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_47' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:327]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_48' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:332]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_49' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:338]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_50' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:343]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_51' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:349]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_52' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:354]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_53' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:360]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_54' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:365]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_55' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:371]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_56' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:376]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_57' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:382]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_62' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:387]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_63' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:393]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_64' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:398]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_65' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:404]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_66' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:409]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_67' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:415]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_68' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:420]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_69' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:426]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_70' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:431]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_71' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:437]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_72' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:442]
+INFO: [Synth 8-3491] module 'AND2' declared at 'C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:14' bound to instance 'XLXI_73' of component 'AND2' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:448]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FTC_HXILINX_lab4_seven_segment_display' declared at 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:27' bound to instance 'XLXI_74' of component 'FTC_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:453]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'OR2' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25847]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (10#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25847]
+INFO: [Synth 8-638] synthesizing module 'VCC' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45038]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (11#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45038]
+INFO: [Synth 8-638] synthesizing module 'CB2CE_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'CB2CE_HXILINX_lab4_seven_segment_display' (12#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'D2_4E_HXILINX_lab4_seven_segment_display' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:78]
+INFO: [Synth 8-226] default block is never used [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:88]
+WARNING: [Synth 8-6014] Unused sequential element sel_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'D2_4E_HXILINX_lab4_seven_segment_display' (13#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:78]
+WARNING: [Synth 8-3848] Net XLXI_125_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:226]
+WARNING: [Synth 8-3848] Net XLXI_76_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:225]
+WARNING: [Synth 8-3848] Net XLXI_74_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:224]
+WARNING: [Synth 8-3848] Net XLXI_72_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:223]
+WARNING: [Synth 8-3848] Net XLXI_70_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:222]
+WARNING: [Synth 8-3848] Net XLXI_68_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:221]
+WARNING: [Synth 8-3848] Net XLXI_66_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:220]
+WARNING: [Synth 8-3848] Net XLXI_64_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:219]
+WARNING: [Synth 8-3848] Net XLXI_62_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:218]
+WARNING: [Synth 8-3848] Net XLXI_56_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:217]
+WARNING: [Synth 8-3848] Net XLXI_54_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:216]
+WARNING: [Synth 8-3848] Net XLXI_52_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:215]
+WARNING: [Synth 8-3848] Net XLXI_50_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:214]
+WARNING: [Synth 8-3848] Net XLXI_48_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:213]
+WARNING: [Synth 8-3848] Net XLXI_46_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:212]
+WARNING: [Synth 8-3848] Net XLXI_44_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:211]
+WARNING: [Synth 8-3848] Net XLXI_13_CLR_openSignal in module/entity Clocking_MUSER_lab4_seven_segment_display does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'Clocking_MUSER_lab4_seven_segment_display' (14#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'lab4_seven_segment_display' (15#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1103]
+INFO: [Synth 8-638] synthesizing module 'Random_Number_Generator' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1214]
+INFO: [Synth 8-256] done synthesizing module 'Random_Number_Generator' (16#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1214]
+INFO: [Synth 8-638] synthesizing module 'Control' [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1270]
+WARNING: [Synth 8-6014] Unused sequential element p1p2_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1292]
+INFO: [Synth 8-256] done synthesizing module 'Control' (17#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1270]
+WARNING: [Synth 8-3848] Net test in module/entity Project_7u7d does not have driver. [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1529]
+INFO: [Synth 8-256] done synthesizing module 'Project_7u7d' (18#1) [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1537]
+WARNING: [Synth 8-3331] design Project_7u7d has unconnected port test[1]
+WARNING: [Synth 8-3331] design Project_7u7d has unconnected port test[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 403.367 ; gain = 123.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin XLXI_13:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:299]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_44:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:310]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_46:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:321]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_48:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:332]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_50:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:343]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_52:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:354]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_54:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:365]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_56:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:376]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_62:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:387]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_64:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:398]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_66:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:409]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_68:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:420]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_70:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:431]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_72:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:442]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_74:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:453]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_76:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:464]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_125:CLR to constant 0 [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:492]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 403.367 ; gain = 123.543
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 91 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.xdc]
+Finished Parsing XDC File [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Project_7u7d_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Project_7u7d_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 91 instances were transformed.
+  AND2 => LUT2: 52 instances
+  AND3 => LUT3: 14 instances
+  INV => LUT1: 13 instances
+  NOR4 => LUT4: 2 instances
+  NOR5 => LUT5: 5 instances
+  OR2 => LUT2: 1 instances
+  OR4 => LUT4: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 711.340 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "ssd" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "p1_bid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "p1_money" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "one_bid_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "p2_bid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "p2_money" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "ssd" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "p1_bid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p1_money" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "one_bid_done" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p2_bid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p2_money" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ssd" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Control'
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1291]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1291]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1291]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE1 |                              001 |                              010
+                 iSTATE2 |                              010 |                              011
+                 iSTATE3 |                              011 |                              100
+                 iSTATE4 |                              100 |                              101
+*
+                 iSTATE0 |                              101 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Control'
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.srcs/sources_1/new/Project_7u7d.vhd:1291]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   3 Input     11 Bit       Adders := 6     
+	   2 Input     11 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 10    
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 25    
++---Multipliers : 
+	                  4x4  Multipliers := 6     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 23    
+	   4 Input     31 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 24    
+	   5 Input     16 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 17    
+	   4 Input     11 Bit        Muxes := 2     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 66    
+	   4 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FTC_HXILINX_lab4_seven_segment_display 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module CB2CE_HXILINX_lab4_seven_segment_display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+Module D2_4E_HXILINX_lab4_seven_segment_display 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module Random_Number_Generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   3 Input     11 Bit       Adders := 6     
+	   2 Input     11 Bit       Adders := 6     
+	   3 Input      4 Bit       Adders := 10    
++---Registers : 
+	               31 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Multipliers : 
+	                  4x4  Multipliers := 6     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 23    
+	   4 Input     31 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 24    
+	   5 Input     16 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 17    
+	   4 Input     11 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 66    
+	   4 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "ssd" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ssd" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Project_7u7d has unconnected port test[1]
+WARNING: [Synth 8-3331] design Project_7u7d has unconnected port test[0]
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[30]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[29]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[28]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[27]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[26]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[25]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[24]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[23]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[22]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[21]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[20]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[19]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[18]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[17]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[16]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[15]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[14]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[13]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[12]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[11]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[10]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[9]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[8]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[7]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[6]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[5]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[4]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[3]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[2]) is unused and will be removed from module Project_7u7d.
+WARNING: [Synth 8-3332] Sequential element (Control/cycle_reg[1]) is unused and will be removed from module Project_7u7d.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 711.340 ; gain = 431.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |AND2   |    52|
+|2     |AND3   |    14|
+|3     |BUFG   |     1|
+|4     |CARRY4 |    88|
+|5     |INV    |     8|
+|6     |LUT1   |    90|
+|7     |LUT2   |   259|
+|8     |LUT3   |    78|
+|9     |LUT4   |   129|
+|10    |LUT5   |    62|
+|11    |LUT6   |   292|
+|12    |NOR4   |     2|
+|13    |NOR5   |     5|
+|14    |OR2    |     1|
+|15    |OR4    |     4|
+|16    |FDRE   |   141|
+|17    |IBUF   |    21|
+|18    |OBUF   |    19|
+|19    |OBUFT  |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+-------------------------------------------------+------+
+|      |Instance                  |Module                                           |Cells |
++------+--------------------------+-------------------------------------------------+------+
+|1     |top                       |                                                 |  1268|
+|2     |  Control                 |Control                                          |  1077|
+|3     |  Display                 |lab4_seven_segment_display                       |   126|
+|4     |    XLXI_10               |Clocking_MUSER_lab4_seven_segment_display        |    62|
+|5     |      XLXI_125            |CB2CE_HXILINX_lab4_seven_segment_display         |     6|
+|6     |      XLXI_127            |D2_4E_HXILINX_lab4_seven_segment_display         |     2|
+|7     |      XLXI_13             |FTC_HXILINX_lab4_seven_segment_display           |     2|
+|8     |      XLXI_44             |FTC_HXILINX_lab4_seven_segment_display_0         |     2|
+|9     |      XLXI_46             |FTC_HXILINX_lab4_seven_segment_display_1         |     2|
+|10    |      XLXI_48             |FTC_HXILINX_lab4_seven_segment_display_2         |     2|
+|11    |      XLXI_50             |FTC_HXILINX_lab4_seven_segment_display_3         |     2|
+|12    |      XLXI_52             |FTC_HXILINX_lab4_seven_segment_display_4         |     2|
+|13    |      XLXI_54             |FTC_HXILINX_lab4_seven_segment_display_5         |     2|
+|14    |      XLXI_56             |FTC_HXILINX_lab4_seven_segment_display_6         |     2|
+|15    |      XLXI_62             |FTC_HXILINX_lab4_seven_segment_display_7         |     2|
+|16    |      XLXI_64             |FTC_HXILINX_lab4_seven_segment_display_8         |     2|
+|17    |      XLXI_66             |FTC_HXILINX_lab4_seven_segment_display_9         |     2|
+|18    |      XLXI_68             |FTC_HXILINX_lab4_seven_segment_display_10        |     2|
+|19    |      XLXI_70             |FTC_HXILINX_lab4_seven_segment_display_11        |     2|
+|20    |      XLXI_72             |FTC_HXILINX_lab4_seven_segment_display_12        |     2|
+|21    |      XLXI_74             |FTC_HXILINX_lab4_seven_segment_display_13        |     2|
+|22    |      XLXI_76             |FTC_HXILINX_lab4_seven_segment_display_14        |     2|
+|23    |    XLXI_3                |Mux_MUSER_lab4_seven_segment_display             |    20|
+|24    |    XLXI_4                |Binary_to_Seven_MUSER_lab4_seven_segment_display |    44|
+|25    |  Random_Number_Generator |Random_Number_Generator                          |    22|
++------+--------------------------+-------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 818.379 ; gain = 230.582
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 818.379 ; gain = 538.555
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 195 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Project_7u7d' is not ideal for floorplanning, since the cellview 'Control' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 86 instances were transformed.
+  AND2 => LUT2: 52 instances
+  AND3 => LUT3: 14 instances
+  INV => LUT1: 8 instances
+  NOR4 => LUT4: 2 instances
+  NOR5 => LUT5: 5 instances
+  OR2 => LUT2: 1 instances
+  OR4 => LUT4: 4 instances
+
+178 Infos, 76 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 818.379 ; gain = 546.316
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.runs/synth_1/Project_7u7d.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 818.379 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 10 20:57:01 2017...

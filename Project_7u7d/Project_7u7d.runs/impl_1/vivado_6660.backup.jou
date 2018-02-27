@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat Oct 28 23:02:26 2017
+# Process ID: 6660
+# Current directory: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.runs/impl_1
+# Command line: vivado.exe -log Project_7u7d.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Project_7u7d.tcl -notrace
+# Log file: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.runs/impl_1/Project_7u7d.vdi
+# Journal file: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Project_7u7d.tcl -notrace

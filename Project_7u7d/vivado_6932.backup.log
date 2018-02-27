@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Nov  3 19:18:19 2017
+# Process ID: 6932
+# Current directory: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12108 C:\Users\user\Desktop\COL215LAB\Project\Project_7u7d\Project_7u7d.xpr
+# Log file: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/vivado.log
+# Journal file: C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d/Project_7u7d.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/user/Desktop/COL215LAB/Project/Project_7u7d.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  3 19:19:34 2017...
